@@ -108,7 +108,7 @@ Các bước cài đặt:
 
 2. Bây giờ bạn có thể nhập liên kết kho lưu trữ GitHub.
 
-3. Documentcodegit sẽ truy xuất tất cả các tệp từ kho lưu trữ và lưu chúng trong một thư mục có tên "cloned_repo". Sau đó, nó sẽ chia các tệp thành các phần nhỏ hơn và tính toán embedding của chú [sentence-transformers/all-mpnet-base-v2](https://huggingface.co/sentence-transformers/all-mpnet-base-v2).
+3. Documentcodegit sẽ truy xuất tất cả các tệp từ kho lưu trữ và lưu chúng trong một thư mục có tên "cloned_repo". Sau đó, nó sẽ chia các tệp thành các phần nhỏ hơn và tính toán embedding của chúng [sentence-transformers/all-mpnet-base-v2](https://huggingface.co/sentence-transformers/all-mpnet-base-v2).
 
 4. Các phần nhúng được lưu trữ cục bộ trong cơ sở dữ liệu vectơ có tên là ChromaDB.
 
