@@ -98,7 +98,7 @@ Các bước cài đặt:
        )
        return llm
    ```
-
+## Nếu sử dụng cuda thì n_gpu_layers=-1 
 ## Usage
 
 1. Mở terminal và chạy lệnh sau để khởi động ứng dụng Document_code:
