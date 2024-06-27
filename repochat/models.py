@@ -12,13 +12,14 @@ def code_llama():
     callbackmanager = CallbackManager([StreamingStdOutCallbackHandler()])
     llm = LlamaCpp(
         model_path="D:/Chatlocal/pythonProject/models/codellama-7b.Q3_K_M.gguf",
-        n_ctx=2500,
+        n_ctx=2048,
         max_tokens=250,
-        n_gpu_layers=4,
-        n_batch=4,
+        n_gpu_layers=10,
+        n_batch=512,
         f16_kv=True,
         callback_manager=callbackmanager,
         verbose=True,
         use_mlock=True
     )
     return llm
+

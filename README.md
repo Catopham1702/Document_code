@@ -25,7 +25,7 @@ Các bước cài đặt:
 
 2. Clone the Documentcodegit repository and navigate to the project directory.
    ```bash
-   git clone https://github.com/pnkvalavala/repochat.git
+   git clone https://github.com/Catopham1702/Document_code.git
    cd repochat
    ```
 

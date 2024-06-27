@@ -3,6 +3,7 @@ import re
 import shutil
 import subprocess
 import streamlit as st
+from sympy.codegen.ast import continue_
 
 
 def init_session_state():
@@ -35,12 +36,16 @@ def url_name(url):
 
 def clone_repo(git_url, repo_path):
     if os.path.exists(repo_path):
-        shutil.rmtree(repo_path)
+        try:
+            shutil.rmtree(repo_path)
+        except PermissionError:
+            # st.warning(f"PermissionError: Could not delete {repo_path}. Proceeding without deleting.")
+            print()
 
     git_url = git_url.replace(".git", "")
 
     command = f'git clone {git_url}.git {repo_path} && rm -rf {repo_path}/.git'
-    subprocess.run(command, shell=True)
+    subprocess.run(command, shell=False)
 
 
 def prompt_format(system_prompt, instruction):
