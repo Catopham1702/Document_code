@@ -14,7 +14,7 @@ st.set_page_config(
     page_icon="💻",
     initial_sidebar_state="expanded",
     menu_items={
-        'Report a bug': "https://github.com/pnkvalavala/repochat/issues",
+        'Report a bug': "https://github.com/Catopham1702/Document_code",
         'About': "No need to worry if you can't understand GitHub code or repositories anymore! Introducing RepoChat, where you can effortlessly chat and discuss all things related to GitHub repositories."
     }
 )
