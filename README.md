@@ -40,7 +40,7 @@ Các bước cài đặt:
    pip install llama-cpp-python
    ```
 
-   ### Cài đặt với tăng tốc phần cứng
+   ### Cài đặt với tăng tốc phần cứng (Hướng dẫn tăng tốc cụ thể ở [TheBloke/phi-2-GGUF](https://huggingface.co/TheBloke/phi-2-GGUF) )
 
     `llama.cpp` supports multiple BLAS backends for faster processing.
 
@@ -101,7 +101,7 @@ Các bước cài đặt:
 
 ## Usage
 
-1. Mở terminal và chạy lệnh sau để khởi động ứng dụng Repochat:
+1. Mở terminal và chạy lệnh sau để khởi động ứng dụng Document_code:
    ```bash
    streamlit run app.py
    ```
