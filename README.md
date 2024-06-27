@@ -1,9 +1,10 @@
-Documentcodegit - Chatbot tương tác với Kho lưu trữ GitHub
-Giới thiệu
+# Documentcodegit - Chatbot tương tác với Kho lưu trữ GitHub
+
+## Giới thiệu
 
 Documentcodegit là một dự án chatbot tương tác được thiết kế để tham gia các cuộc hội thoại về các kho lưu trữ GitHub bằng cách sử dụng Mô hình Ngôn ngữ Lớn (LLM). Nó cho phép người dùng có các cuộc thảo luận ý nghĩa, đặt câu hỏi và truy xuất thông tin liên quan từ kho lưu trữ GitHub.
 
-
+ 
 ## Mục lục  
 
 - [Installation](#installation)
