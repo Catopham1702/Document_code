@@ -101,7 +101,7 @@ Các bước cài đặt:
 ## Nếu sử dụng cuda thì n_gpu_layers=-1 
 ## Usage
 
-1. Mở terminal và chạy lệnh sau để khởi động ứng dụng Document_code:
+1. Mở terminal và chạy lệnh sau để khởi động ứng dụng Documentcodegit:
    ```bash
    streamlit run app.py
    ```
