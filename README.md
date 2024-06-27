@@ -99,7 +99,7 @@ Các bước cài đặt:
        return llm
    ```
 
-## Sử Dụng
+## Usage
 
 1. Mở terminal và chạy lệnh sau để khởi động ứng dụng Repochat:
    ```bash
